@@ -27,6 +27,7 @@
       #strong(it.caption.body)
     ]
     set text(size: 12pt)
+    set par(justify: false)
     it.body
   }
   show figure.caption: it => emph(it)
